@@ -11,7 +11,7 @@ uint8_t slaveAddress[] = {0x0C, 0xB8, 0x15, 0xC2, 0xDF, 0x20};
 
 esp_now_peer_info_t slaveInfo;
 // Insert your SSID
-constexpr char WIFI_SSID[] = "StudyRoom";
+constexpr char WIFI_SSID[] = "your-wifi-ssid";
 // Structure to keep the temperature and humidity data from a DHT sensor
 typedef struct temp_humidity {
   float temperature;
