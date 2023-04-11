@@ -4,8 +4,8 @@
 */
 #include <esp_now.h>
 #include <WiFi.h>
-static const char* ssid     = "StudyRoom";
-static const char* password = "afiqdaniel19";
+static const char* ssid     = "your-wifi-ssid";
+static const char* password = "your-wifi-password";
 // Structure to keep the temperature and humidity data
 // Is also required in the client to be able to save the data directly
 typedef struct temp_humidity {
