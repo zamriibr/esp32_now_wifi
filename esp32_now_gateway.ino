@@ -38,6 +38,11 @@ void setup() {
     Serial.print(".");
   }
   
+  // Printout MAC address
+  Serial.println();
+  Serial.print("ESP Board MAC Address:  ");
+  Serial.println(WiFi.macAddress());
+  
   // Init ESP-NOW
   if (esp_now_init() != ESP_OK) {
     Serial.println("There was an error initializing ESP-NOW");
